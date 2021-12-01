@@ -1,0 +1,373 @@
+
+*{
+
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.body{
+
+  /*max-width: 1200px;*/
+   height: 700px;
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(180deg,white 5%,  #E9EDF5 90%);
+  background-repeat: no-repeat;
+  position: relative;
+
+
+}
+/*#E1E5F0*/
+
+.head{
+    width: 100%;
+    height: 70px;
+   background-size: 200px;
+   background-color: #3B5999;
+   position: relative;
+   
+      
+}
+
+.head .facebook{
+   color: white;
+   padding-left: 140px;
+   padding-top: 25px;
+   display: inline-block;
+   float: left;
+
+}
+
+.head .input{
+
+
+	display: inline-block;
+   float: left;
+   position: absolute;
+   right: 100px;
+   top: 20px;
+
+
+
+}
+.head .login{
+     width: 40px;
+     height: 19px;
+     background-color: #6178AA;
+   border: 1px #AEBAE1 #6178AA;
+     /*color: white;*/
+     display: inline-block;
+   float: left;
+   position: absolute;
+   right:45px;
+   top: 21px;
+   padding: 0px;
+   text-align: center;
+
+   box-sizing: border-box;
+   box-shadow: 1px 1px;
+
+
+
+}
+
+.head .login a{
+     
+     color: white;
+     font-size: 10px;
+     text-decoration: none;
+
+}
+
+.head .email{
+ color: white;
+ display: inline-block;
+   float: left;
+   position: absolute;
+   right: 289px;
+    top: 6px;
+    font-size: 10px;
+
+
+}
+
+.head .pass{
+  color: white;
+  display: inline-block;
+   float: left;
+   position: absolute;
+   right: 184px;
+    top: 6px;
+    font-size: 10px;
+
+}
+
+.head .forgot{
+
+	color: white;
+  display: inline-block;
+   float: left;
+   position: absolute;
+   right: 143px;
+    top: 42px;
+    font-size: 10px;
+    opacity:0.7;
+}
+
+/*.body .image{
+ 
+  background-size: 100%;
+  display: inline-block;
+   float: left;
+   position: absolute;
+   right: 143px;
+    top: 42px;
+    background-image: url('image/Capture.JPG');
+
+}*/
+
+
+.body .table{
+
+	width: 500px;
+	height: 500px;
+	border:0px solid red;
+
+	position: absolute;
+    right: 0;
+    margin: 20px;
+    
+
+}
+.body .table .name1
+{
+	border-color:#CFCBCA;
+	height:30px;
+  margin: 10px;
+ 
+  border-radius: 5px;
+   display: inline-block;
+
+}
+.body .table .name2
+{
+	border-color:#CFCBCA;
+  height:30px;
+  margin: 10px;
+ 
+  border-radius: 5px;
+  display: inline-block;
+
+}
+.body .table .mobilenumer{
+	border-color:#CFCBCA;
+  height:30px;
+  /*width: 342px;*/
+  width: 365px;
+  margin: 10px;
+ 
+  border-radius: 5px;
+
+   display: block;
+
+}
+
+.body .table .password{
+	border-color:#CFCBCA;
+  height:30px;
+width: 365px;
+  margin: 10px;
+ 
+  border-radius: 5px;
+  
+   display: block;
+
+}
+.body .table .dob0{
+	border-color:#CFCBCA;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  
+   display: block;
+
+}
+
+.body .table .dob{
+	border-color:#CFCBCA;
+  margin-left: 10px;
+  height: 25px;
+  
+   display: inline-block;
+
+}
+
+.body .table .dob1{
+	border-color:#CFCBCA;
+  margin-left: 10px;
+  height: 25px;
+  
+   display: inline-block;
+
+}
+.body .table .dob2{
+	border-color:#CFCBCA;
+ margin-left: 10px;
+ height: 25px;
+  
+   display: inline-block;
+
+}
+
+.body .table .gender1{
+  margin-left: 30px;
+  margin-top: 20px;
+  
+   display: inline-block;
+
+}
+.body .table .gender2{
+  margin-left: 15px;
+  margin-top: 20px;
+  
+   display: inline-block;
+
+}
+
+.body .table .pclass{
+  
+  display: inline-block;
+  margin-left: 2px;
+  margin-top: 2px;
+  float:right;
+  margin-right: 95px;
+
+
+	/*font-size: 10px;
+	color: #8B91CF;
+	padding: 5px;*/
+
+
+}
+
+.body .table .pclass .pp{
+	/*display: inline-block;
+  margin-left: 2px;
+  margin-top: 2px;*/
+  width: 200px;
+	font-size: 10px;
+
+	color: #8B91CF;
+	/*padding: 10px;*/
+
+
+}
+
+.texti{
+	margin-top: 10px;
+	width: 290px;
+   color: gray;
+   font-size: 11px;
+   margin-left: 10px;
+
+}
+
+.texti .link{
+color: #6D76D3;
+text-decoration: none;
+
+}
+
+.signup{
+	width: 150px;
+	height: 25px;
+margin-left: 10px;
+margin-top: 15px;
+border: 1px solid none;
+background-color: #5E964B;
+
+text-align: center;
+padding: 5px;
+border-radius: 4px;
+box-shadow: 0.1px -0.3px;
+}
+
+.signup .signuplink
+{
+
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 600;
+
+
+
+	
+
+}
+
+.page{
+margin-top: 10px;
+	width: 290px;
+   color: gray;
+   font-size: 15px;
+   margin-left: 10px;
+
+
+}
+
+.page .pagelink{
+
+	color: #6D76D3;
+text-decoration: none;
+}
+
+
+.body .intro{
+
+   width: 350px;
+	height: 100px;
+	border:0px solid red;
+
+	position: absolute;
+    left: 120px;
+    /*margin: 20px;*/
+    margin-top: 40px;
+    font-size: 17px;
+    color: #2F3576;
+
+}
+.body .friends{
+
+   width: 570px;
+	height: 100px;
+	background-size: 100%;
+	/*border:0px solid red;*/
+
+	position: absolute;
+    left: 130px;
+    /*margin: 20px;*/
+    margin-top: 90px;
+    opacity: 0.9;
+
+    
+    
+
+
+
+}
+
+/*.adnan{
+   width: 570px;
+	height: 100px;
+	background-size: 100%;
+	/*border:0px solid red;*/
+
+	position: absolute;
+    bottom: 0;
+    left: 450px;
+    /*margin: 20px;*/
+    margin-top: 90px;
+
+}*/
+
+
